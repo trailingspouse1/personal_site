@@ -1,0 +1,50 @@
+body {
+	width: 100%;
+	font-family: Tahoma;
+	font-size: 20px;
+	
+}
+
+#intro {
+width: 80%;
+background: ;
+
+}
+
+
+.introimage {
+	float: left;
+	width: 400px;
+	margin-right: 10px
+
+}
+
+
+.postimage1 {
+float: right;
+width: 400px;
+border: 2px solid black;
+margin-right: 20px;
+}
+
+.postimage2 {
+
+float: left;
+width: 300px;
+background: #fff;
+border: 2px solid black;
+margin-right: 20px;  
+
+}
+
+#footer {
+ width: 6100%;
+ height: 20px;
+ background: #grey;
+ border: 10px;
+ color: black;
+ font-size: 12px;
+ padding: 20px;
+ margin: auto;
+
+	} 

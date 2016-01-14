@@ -1,0 +1,36 @@
+/***
+Beak Speak Media Master Stylesheet
+Author: Diana Mahmoud
+***/
+
+@import url('bootstrap.css');
+
+.navbar-inverse {
+    background-color: #17abb7;
+    border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-brand {color:#fff;}
+
+.btn {background-color:  #17abb7}
+
+
+.btn-default {
+    color: #fff}
+
+.featuretext {font-size: larger;}
+
+.circleheader, .circletext {
+	text-align: center;
+	 
+}
+
+.caption {
+
+
+	font-size: smaller;
+}
