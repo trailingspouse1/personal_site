@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BeakSpeak Digital Consulting</title>
+    <title>Contact - BeakSpeak Digital Media Consulting</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="assets/stylesheets/style.css" rel="stylesheet">
@@ -50,14 +50,14 @@
                         <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="services.html">Services</a>
                     </li>
-                      <li><a href="#">Classes</a></li>
+                      <li><a href="classes.html">Classes</a></li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a class="active" href= "contact.html">Contact</a>
                     </li>
                     <li>
-                        <a href="#">Blog</a>
+                        <a href="blog.html">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -79,30 +79,65 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+<div class="container">
 
-        <hr>
+  <hr>
        
-        <div class="row">
-            <div class="col-sm-8">
+    <div class="row">
+        <div class="col-sm-8">
                 <h2> Curious?  Drop us a line.</h2>
                 <p >
                 Would you like to understand how BeakSpeak Media can help your business? Interested in learning more about our services? Schedule a consultation by using the contact form. </p>
 ﻿
                 <p> </p>
-                </p>
-    
-            </div>
-            <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center" src="assets/images/social.jpg" alt="Diana Mahmoud" width="200" />
-
-                <p> </p>
                 
-            </div>
+
+  <!-- E-mail Form Content -->   
+<form class="form-horizontal" role="form" method="post" action="index.php">
+    <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
         </div>
+    </div>
+    <div class="form-group">
+        <label for="email" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="message" class="col-sm-2 control-label">Message</label>
+        <div class="col-sm-10">
+            <textarea class="form-control" rows="4" name="message"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+            <! Will be used to display an alert to the user>
+        </div>
+    </div>
+</form>
 
-        <hr>
+ <!-- End E-mail Form -->
 
+    <hr>
+        </div>    
+    <div class="col-sm-4">         
+         <h2><img class="img-circle img-responsive img-center" src="assets/images/contact.jpg" alt="Contact us" width="300" /></h2>                 
+    </div>
+</div>
         <!-- Footer -->
         <footer>
             <div class="row">

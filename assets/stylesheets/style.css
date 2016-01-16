@@ -8,6 +8,7 @@ Author: Diana Mahmoud
 .navbar-inverse {
     background-color: #17abb7;
     border-color: #080808;
+
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -16,21 +17,26 @@ Author: Diana Mahmoud
 
 .navbar-brand {color:#fff;}
 
+.icons {
+
+}
+
+.business-header {
+	 padding-top: 50px
+}
+
 .btn {background-color:  #17abb7}
 
 
 .btn-default {
     color: #fff}
 
-.featuretext {font-size: larger;}
-
-.circleheader, .circletext {
-	text-align: center;
-	 
+.featuretext {font-size: larger;
 }
+	
 
 .caption {
-
-
 	font-size: smaller;
 }
+
+
