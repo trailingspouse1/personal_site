@@ -1,42 +1,77 @@
 /***
 Beak Speak Media Master Stylesheet
 Author: Diana Mahmoud
+
+/***
+
+ a :active  #fff;
+    :hover 
+    :focus  #fff; 
+
 ***/
 
 @import url('bootstrap.css');
 
 .navbar-inverse {
     background-color: #17abb7;
-    border-color: #080808;
-
+    border-color: ##17abb7;    
 }
 
-.navbar-inverse .navbar-nav>li>a {
+
+.navbar-inverse .navbar-nav > li > a {
     color: #fff;
 }
 
-.navbar-brand {color:#fff;}
+.navbar-inverse .navbar-nav {
+    color: #fff;
+}
 
-.icons {
-
+.navbar-inverse .navbar-nav > li > a.active {
+    color: #ccc;
 }
 
 .business-header {
 	 padding-top: 50px
 }
 
-.btn {background-color:  #17abb7}
-
 
 .btn-default {
-    color: #fff}
+    background-color: #17abb7;;
+    color: #fff;
+}
 
-.featuretext {font-size: larger;
+.featureblock blockquote{
+	float: right;
+	margin: 40px 5px 0px 5px;
+    border-left: 5px solid #a7c038;
+	}
+
+.featuretext {
+font-size: larger;
 }
 	
 
 .caption {
 	font-size: smaller;
 }
+
+.social {
+	position: absolute;
+	top: 0;
+	right:0;
+	margin: 5px 20px; 
+
+}
+
+@media only screen and (max-width: 768px){
+
+     .social {
+     	position: relative;
+     	width: 120px;
+     	float: left;
+    
+     }
+}
+	
 
 
