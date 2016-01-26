@@ -30,6 +30,10 @@ Author: Diana Mahmoud
     color: #ccc;
 }
 
+a.active{
+    color: #ccc !important;
+}
+
 .business-header {
 	 padding-top: 50px
 }
